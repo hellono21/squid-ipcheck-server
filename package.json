@@ -14,7 +14,8 @@
     "koa": "next",
     "koa-bodyparser": "next",
     "koa-logger": "next",
-    "koa-router": "^7.1.1"
+    "koa-router": "^7.1.1",
+    "validator": "^7.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
