@@ -1,0 +1,29 @@
+{
+  "name": "squid-ipcheck-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.4.0",
+    "babel-register": "^6.24.1",
+    "ioredis": "^2.5.0",
+    "kcors": "next",
+    "koa": "next",
+    "koa-bodyparser": "next",
+    "koa-logger": "next",
+    "koa-router": "^7.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "nodemon": "^1.11.0"
+  }
+}
