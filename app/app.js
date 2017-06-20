@@ -1,18 +1,14 @@
 /**
- * Created by ccc on 5/16/17.
+ * Created by ccc on 6/15/17.
  */
 
-import Koa from 'koa'
-import logger from 'koa-logger'
-import cors from 'kcors'
-import bodyParser from 'koa-bodyparser';
-import routes from './api'
+import Koa from 'koa';
+import middleware from './middleware';
+import api from './api';
 
+const app = new Koa();
 
-const app = new Koa()
-app.use(logger())
-  .use(cors())
-  .use(bodyParser())
-  .use(routes)
+app.use(middleware());
+app.use(api());
 
-export default app
+export default app;

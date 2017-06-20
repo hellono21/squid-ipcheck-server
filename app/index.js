@@ -1,16 +1,29 @@
 /**
- * Created by ccc on 5/16/17.
+ * Created by ccc on 6/15/17.
  */
 
-import app from './app'
+import configs from './configs';
+import app from './app';
+import { connectDatabase, registerLocalClient, registerAdminUser, } from './db';
 
-const port = process.env.PORT || 4000;
+const port = configs.server.port;
+const { mongo } = configs;
 
-(async() => {
+(async () => {
   try {
-    await app.listen(port)
-    console.info(`server started at port: ${port}`)
-  } catch (err){
-    console.log(err)
+    const info = await connectDatabase(mongo.development);
+    console.log(`Connected to ${info.host}:${info.port}/${info.name}`);
+  } catch (error) {
+    console.error('Unable to connect to database');
+  }
+
+  try {
+    await registerLocalClient();
+    await registerAdminUser();
+
+    await app.listen(port);
+    console.log(`Server started on port ${port}`);
+  } catch (error) {
+    console.error(error);
   }
 })();

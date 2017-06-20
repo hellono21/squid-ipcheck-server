@@ -1,25 +1,24 @@
 /**
- * Created by ccc on 5/16/17.
+ * Created by ccc on 6/16/17.
  */
 
-import Router from 'koa-router'
-import ip from './ip'
 
-const router = new Router()
+import compose from 'koa-compose';
+import Router from 'koa-router';
+import importDir from 'import-dir';
+import auth from './auth';
 
-router.use(async (ctx, next) => {
-  try {
-    await next()
-  } catch (error) {
-    ctx.status = 400
-    ctx.body = {
-      code: error.code,
-      message: error.message || error.errmsg || error.msg || 'unknown_error',
-      error,
-    }
-  }
-})
+const routes = importDir('./routes');
+const prefix = '/api';
 
-router.use(ip)
+export default function api() {
+  const router = new Router({ prefix });
 
-export default router.routes();
+  Object.keys(routes).forEach(name => routes[name](router));
+
+  return compose([
+    auth(),
+    router.routes(),
+    router.allowedMethods(),
+  ]);
+}
