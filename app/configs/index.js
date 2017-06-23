@@ -7,7 +7,7 @@ const configs = {
   server: {
     host: '0.0.0.0',
     port: process.env.PORT || 3000,
-    hostName: 'http://localhost:8000',
+    hostName: process.env.HOSTNAME || 'http://localhost:8000',
   },
   redis: {
     host: process.env.REDIS_HOST || '127.0.0.1',
