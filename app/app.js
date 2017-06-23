@@ -7,6 +7,7 @@ import middleware from './middleware';
 import api from './api';
 
 const app = new Koa();
+app.proxy = true
 
 app.use(middleware());
 app.use(api());

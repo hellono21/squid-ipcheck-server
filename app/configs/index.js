@@ -12,7 +12,7 @@ const configs = {
   redis: {
     host: process.env.REDIS_HOST || '127.0.0.1',
     port: process.env.REDIS_PORT || 6379,
-    prefix: 'squid-ipcheck',
+    prefix: 'squid',
   },
   mongo: {
     host: process.env.MONGO_HOST || '127.0.0.1',
