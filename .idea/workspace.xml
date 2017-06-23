@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4201895-2890-41fc-b805-b9bf24d003ac" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/../../../.tmp/" />
-    <ignored path="$PROJECT_DIR$/../../../temp/" />
-    <ignored path="$PROJECT_DIR$/../../../tmp/" />
+    <ignored path="$USER_HOME$/.tmp/" />
+    <ignored path="$USER_HOME$/temp/" />
+    <ignored path="$USER_HOME$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,30 +15,8 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../app/configs/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../app/db/models/client.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="invitation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../app/db/models/invitation.js">
+      <file leaf-file-name="invitations.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../app/api/routes/invitations.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -50,64 +28,38 @@
         </entry>
       </file>
       <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../app/api/routes/users.js">
+        <entry file="file://$PROJECT_DIR$/../../app/api/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#40#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".eslintrc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../.eslintrc">
+      <file leaf-file-name="token.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../app/api/routes/token.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="198">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".editorconfig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../.editorconfig">
+      <file leaf-file-name="oauth2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../app/api/auth/oauth2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../node_modules/deep-equal/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-970">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="document.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../node_modules/mongoose/lib/document.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="2407" column="17" lean-forward="true" selection-start-line="2407" selection-start-column="17" selection-end-line="2407" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="522">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#39#81#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,46 +79,59 @@
       <find>user</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../../../.eslintrc" />
-        <option value="$PROJECT_DIR$/../../../index.js" />
-        <option value="$PROJECT_DIR$/../../../app/index.js" />
-        <option value="$PROJECT_DIR$/../../../app/middleware/notFound.js" />
-        <option value="$PROJECT_DIR$/../../../app/middleware/handleErrors.js" />
-        <option value="$PROJECT_DIR$/../../../app/middleware/index.js" />
-        <option value="$PROJECT_DIR$/../../../package.json" />
+        <option value="$USER_HOME$/.eslintrc" />
+        <option value="$USER_HOME$/index.js" />
+        <option value="$USER_HOME$/app/index.js" />
+        <option value="$USER_HOME$/app/middleware/notFound.js" />
+        <option value="$USER_HOME$/app/middleware/handleErrors.js" />
+        <option value="$USER_HOME$/app/middleware/index.js" />
+        <option value="$USER_HOME$/package.json" />
+        <option value="$USER_HOME$/app/api/routes/users.js" />
+        <option value="$USER_HOME$/app/app.js" />
+        <option value="$USER_HOME$/app/api/index.js" />
+        <option value="$USER_HOME$/app/db/models/client.js" />
+        <option value="$USER_HOME$/app/db/models/user.js" />
+        <option value="$USER_HOME$/app/db/models/access-token.js" />
+        <option value="$USER_HOME$/app/configs/index.js" />
+        <option value="$USER_HOME$/app/db/index.js" />
+        <option value="$USER_HOME$/app/index.js" />
+        <option value="$USER_HOME$/package.json" />
+        <option value="$USER_HOME$/app/api/auth/strategies/bearer.js" />
+        <option value="$USER_HOME$/app/api/auth/strategies/client-basic.js" />
+        <option value="$USER_HOME$/app/api/index.js" />
+        <option value="$USER_HOME$/app/app.js" />
+        <option value="$USER_HOME$/app/api/auth/oauth2.js" />
+        <option value="$USER_HOME$/app/api/auth/provider.js" />
+        <option value="$USER_HOME$/app/db/models/user.js" />
+        <option value="$USER_HOME$/app/utils.js" />
+        <option value="$USER_HOME$/app/db/models/invitation.js" />
+        <option value="$USER_HOME$/app/utils/index.js" />
+        <option value="$USER_HOME$/app/db/index.js" />
+        <option value="$USER_HOME$/app/configs/index.js" />
+        <option value="$USER_HOME$/app/api/routes/whiteip.js" />
+        <option value="$USER_HOME$/app/db/models/white-ip-log.js" />
+        <option value="$USER_HOME$/app/api/routes/invitations.js" />
+        <option value="$USER_HOME$/app/api/routes/token.js" />
+        <option value="$USER_HOME$/app/api/auth/index.js" />
+        <option value="$USER_HOME$/app/api/routes/users.js" />
+        <option value="/app/api/routes/users.js" />
+        <option value="/.gitignore" />
+        <option value="$USER_HOME$/app/api/routes/users.js" />
+        <option value="$USER_HOME$/app/api/routes/invitations.js" />
+        <option value="$USER_HOME$/app/utils/index.js" />
         <option value="$PROJECT_DIR$/../../../app/api/routes/users.js" />
-        <option value="$PROJECT_DIR$/../../../app/app.js" />
-        <option value="$PROJECT_DIR$/../../../app/api/index.js" />
-        <option value="$PROJECT_DIR$/../../../app/db/models/client.js" />
-        <option value="$PROJECT_DIR$/../../../app/db/models/user.js" />
-        <option value="$PROJECT_DIR$/../../../app/db/models/access-token.js" />
         <option value="$PROJECT_DIR$/../../../app/configs/index.js" />
-        <option value="$PROJECT_DIR$/../../../app/db/index.js" />
-        <option value="$PROJECT_DIR$/../../app/index.js" />
-        <option value="$PROJECT_DIR$/../../package.json" />
-        <option value="$PROJECT_DIR$/../../app/api/auth/strategies/bearer.js" />
-        <option value="$PROJECT_DIR$/../../app/api/auth/strategies/client-basic.js" />
-        <option value="$PROJECT_DIR$/../../app/api/index.js" />
-        <option value="$PROJECT_DIR$/../../app/app.js" />
-        <option value="$PROJECT_DIR$/../../app/api/auth/oauth2.js" />
-        <option value="$PROJECT_DIR$/../../app/api/auth/provider.js" />
-        <option value="$PROJECT_DIR$/../../app/db/models/user.js" />
-        <option value="$PROJECT_DIR$/../../app/utils.js" />
-        <option value="$PROJECT_DIR$/../../app/db/models/invitation.js" />
-        <option value="$PROJECT_DIR$/../../app/utils/index.js" />
-        <option value="$PROJECT_DIR$/../../app/db/index.js" />
-        <option value="$PROJECT_DIR$/../../app/configs/index.js" />
-        <option value="$PROJECT_DIR$/../../app/api/routes/whiteip.js" />
-        <option value="$PROJECT_DIR$/../../app/db/models/white-ip-log.js" />
-        <option value="$PROJECT_DIR$/../../app/api/routes/invitations.js" />
-        <option value="$PROJECT_DIR$/../../app/api/routes/token.js" />
-        <option value="$PROJECT_DIR$/../../app/api/auth/index.js" />
+        <option value="$PROJECT_DIR$/../../../app/utils/index.js" />
+        <option value="$PROJECT_DIR$/../../../app/api/routes/invitations.js" />
         <option value="$PROJECT_DIR$/../../app/api/routes/users.js" />
-        <option value="$PROJECT_DIR$/../app/api/routes/users.js" />
-        <option value="$PROJECT_DIR$/../.gitignore" />
+        <option value="$PROJECT_DIR$/../../app/api/routes/token.js" />
+        <option value="$PROJECT_DIR$/../../app/api/auth/oauth2.js" />
       </list>
     </option>
   </component>
@@ -177,14 +142,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/../node_modules" />
+    <handled-path value="$PROJECT_DIR$/../../node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="-11" />
-    <option name="width" value="1682" />
-    <option name="height" value="999" />
+    <option name="y" value="-4" />
+    <option name="width" value="1680" />
+    <option name="height" value="991" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -201,7 +166,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,29 +206,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="." />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,8 +268,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="." />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,11 +300,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/../../../node_modules/eslint" />
+    <property name="node.js.selected.package.eslint" value="$USER_HOME$/node_modules/eslint" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/../../../node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="$USER_HOME$/node_modules/eslint" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RunDashboard">
@@ -436,25 +401,30 @@
       <workItem from="1497577072200" duration="5233000" />
       <workItem from="1497590189579" duration="33967000" />
       <workItem from="1497917723520" duration="1106000" />
+      <workItem from="1497944306583" duration="807000" />
+      <workItem from="1498024102752" duration="7150000" />
+      <workItem from="1498101238377" duration="755000" />
+      <workItem from="1498102025124" duration="1582000" />
+      <workItem from="1498184860202" duration="2236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44075000" />
+    <option name="totallyTimeSpent" value="56605000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1682" height="999" extended-state="6" />
+    <frame x="0" y="-4" width="1680" height="991" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19404761" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -475,57 +445,54 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../app/middleware/handleErrors.js" />
-    <entry file="file://$PROJECT_DIR$/../../../.gitignore" />
-    <entry file="file://$PROJECT_DIR$/../../../.editorconfig" />
-    <entry file="file://$PROJECT_DIR$/../../../.eslintrc" />
-    <entry file="file://$PROJECT_DIR$/../../../index.js" />
-    <entry file="file://$PROJECT_DIR$/../../../app/middleware/notFound.js" />
-    <entry file="file://$PROJECT_DIR$/../../../app/middleware/index.js" />
-    <entry file="file://$PROJECT_DIR$/../../../app/middleware/handleErrors.js" />
-    <entry file="file://$PROJECT_DIR$/../../../package.json" />
-    <entry file="file://$PROJECT_DIR$/../../../app/app.js" />
-    <entry file="file://$PROJECT_DIR$/../../../app/api/index.js" />
+    <entry file="file://$USER_HOME$/app/index.js" />
+    <entry file="file://$USER_HOME$/node_modules/oauth2orize-koa/lib/server.js" />
+    <entry file="file://$USER_HOME$/package.json" />
+    <entry file="file://$USER_HOME$/node_modules/mongoose-validator/lib/mongoose-validator.js" />
+    <entry file="file://$USER_HOME$/app/db/models/client.js" />
+    <entry file="file://$USER_HOME$/app/utils.js" />
+    <entry file="file://$USER_HOME$/app/api/auth/strategies/client-basic.js" />
+    <entry file="file://$USER_HOME$/app/index.js" />
+    <entry file="file://$USER_HOME$/app/app.js" />
+    <entry file="file://$USER_HOME$/app/api/index.js" />
+    <entry file="file://$USER_HOME$/app/utils/index.js" />
+    <entry file="file://$USER_HOME$/app/db/models/invitation.js" />
+    <entry file="file://$USER_HOME$/app/db/index.js" />
+    <entry file="file://$USER_HOME$/app/configs/index.js" />
+    <entry file="file://$USER_HOME$/app/api/routes/whiteip.js" />
+    <entry file="file://$USER_HOME$/app/db/models/access-token.js" />
+    <entry file="file://$USER_HOME$/app/db/models/white-ip-log.js" />
+    <entry file="file://$USER_HOME$/app/api/auth/provider.js" />
+    <entry file="file://$USER_HOME$/app/api/auth/strategies/bearer.js" />
+    <entry file="file://$USER_HOME$/app/db/models/user.js" />
+    <entry file="file://$USER_HOME$/app/api/routes/invitations.js" />
+    <entry file="file://$USER_HOME$/app/api/routes/token.js" />
+    <entry file="file://$USER_HOME$/app/api/auth/oauth2.js" />
+    <entry file="file://$USER_HOME$/app/api/routes/users.js" />
+    <entry file="file://$USER_HOME$/app/api/auth/index.js" />
+    <entry file="file:///app/configs/index.js" />
+    <entry file="file:///app/db/models/client.js" />
+    <entry file="file:///app/db/models/invitation.js" />
+    <entry file="file:///node_modules/mongoose/lib/document.js" />
+    <entry file="file:///node_modules/deep-equal/index.js" />
+    <entry file="file:///app/api/routes/users.js" />
+    <entry file="file:///.eslintrc" />
+    <entry file="file:///.editorconfig" />
+    <entry file="file:///.gitignore" />
+    <entry file="file://$USER_HOME$/app/api/auth/oauth2.js" />
+    <entry file="file://$USER_HOME$/app/api/routes/token.js" />
+    <entry file="file://$USER_HOME$/app/api/routes/users.js" />
+    <entry file="file://$USER_HOME$/app/app.js" />
+    <entry file="file://$USER_HOME$/app/index.js" />
+    <entry file="file://$USER_HOME$/app/db/models/invitation.js" />
+    <entry file="file://$USER_HOME$/app/api/routes/invitations.js" />
+    <entry file="file://$USER_HOME$/app/utils/index.js" />
     <entry file="file://$PROJECT_DIR$/../../../app/api/routes/users.js" />
-    <entry file="file://$PROJECT_DIR$/../../../app/db/models/client.js" />
-    <entry file="file://$PROJECT_DIR$/../../../app/db/models/user.js" />
-    <entry file="file://$PROJECT_DIR$/../../../app/db/models/access-token.js" />
+    <entry file="file://$PROJECT_DIR$/../../../app/api/routes/token.js" />
     <entry file="file://$PROJECT_DIR$/../../../app/configs/index.js" />
-    <entry file="file://$PROJECT_DIR$/../../../app/db/index.js" />
-    <entry file="file://$PROJECT_DIR$/../../../app/index.js" />
-    <entry file="file://$PROJECT_DIR$/../../node_modules/oauth2orize-koa/lib/server.js" />
-    <entry file="file://$PROJECT_DIR$/../../package.json" />
-    <entry file="file://$PROJECT_DIR$/../../node_modules/mongoose-validator/lib/mongoose-validator.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/db/models/client.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/utils.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/api/auth/strategies/client-basic.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/index.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/app.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/api/index.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/utils/index.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/db/models/invitation.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/db/index.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/configs/index.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/api/routes/whiteip.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/db/models/access-token.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/db/models/white-ip-log.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/api/auth/provider.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/api/auth/strategies/bearer.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/db/models/user.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/api/routes/invitations.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/api/routes/token.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/api/auth/oauth2.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/api/routes/users.js" />
-    <entry file="file://$PROJECT_DIR$/../../app/api/auth/index.js" />
-    <entry file="file://$PROJECT_DIR$/../app/configs/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../app/db/models/client.js">
+    <entry file="file://$PROJECT_DIR$/../../../app/utils/index.js" />
+    <entry file="file://$PROJECT_DIR$/../../../app/api/routes/invitations.js" />
+    <entry file="file://$PROJECT_DIR$/../../app/api/routes/invitations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -535,64 +502,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../app/db/models/invitation.js">
+    <entry file="file://$PROJECT_DIR$/../../app/api/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../node_modules/mongoose/lib/document.js">
+    <entry file="file://$PROJECT_DIR$/../../app/api/routes/token.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="2407" column="17" lean-forward="true" selection-start-line="2407" selection-start-column="17" selection-end-line="2407" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../node_modules/deep-equal/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-970">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../app/api/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="198">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#40#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.eslintrc">
+    <entry file="file://$PROJECT_DIR$/../../app/api/auth/oauth2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.editorconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="522">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#39#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

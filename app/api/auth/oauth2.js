@@ -21,8 +21,12 @@ server.exchange(
       const user = await User.findOne({ email: email.toLowerCase() });
       if (!user) return false;
 
-      const isMatch = await bcrypt.compare(password, user.hashed_password);
-      if (!isMatch) return false;
+      try {
+        await bcrypt.compare(password, user.hashed_password);
+      } catch (err) {
+        console.log(err);
+        return false;
+      }
 
       await AccessToken.findOneAndRemove({ user: user._id });
       const accessToken = await AccessToken.create({

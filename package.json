@@ -7,6 +7,7 @@
   "scripts": {
     "mongo": "mongod -dbpath ./data",
     "redis": "redis-server",
+    "db": "npm run redis & npm run mongo",
     "start": "nodemon ."
   },
   "devDependencies": {

@@ -12,7 +12,6 @@ const isValidId = mongoose.Types.ObjectId.isValid;
 
 function hasAuthorized(){
   return async (ctx, next) => {
-    console.log(ctx.state.user);
     if ((ctx.state.user._id.equals(ctx.params.id)) || ctx.state.user.admin) {
       await next();
     } else {
@@ -23,8 +22,9 @@ function hasAuthorized(){
 export default (router) => {
   router
     .get('/users', async ctx => ctx.body = await User.find({}))
-    .post('/users/:token', async ctx => {
-      const invitation = await Invitation.findOneAndRemove({token: ctx.params.token});
+    .post('/users', async ctx => {
+      const token = ctx.request.body.token;
+      const invitation = await Invitation.findOne({token});
       if (invitation) {
         ctx.body = await User.create({
           name: ctx.request.body.name,
@@ -33,8 +33,15 @@ export default (router) => {
           confirm_password: ctx.request.body.confirm_password,
         });
         ctx.status = 201;
+        await Invitation.findOneAndRemove({token})
       }
     })
+    .get('/users/me',
+      isBearerAuthenticated(),
+      async ctx => {
+        ctx.body = ctx.state.user;
+      },
+    )
     .get('/users/:id', async ctx => {
       let user;
       if (isValidId(ctx.params.id)) {
@@ -64,6 +71,6 @@ export default (router) => {
         const user = await User.findByIdAndRemove(ctx.params.id);
         if (user) ctx.status = 204;
       }
-    );
+    )
   ;
 }
