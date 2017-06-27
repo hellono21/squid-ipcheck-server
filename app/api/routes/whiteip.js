@@ -36,7 +36,9 @@ export default (router) => {
       ctx.status = 201
     })
     .get('/whiteips', async ctx => {
-      ctx.body = await db.keys('squid*');
+      const ips = await db.keys('squid*');
+
+      ctx.body = ips.map((i) => { return {ip: i.substr(6)}; });
     })
     .post('/whiteips', async ctx => {
       const ip = ctx.request.body.ip;

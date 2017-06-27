@@ -17,7 +17,7 @@ export default (router) => {
         email: ctx.request.body.email,
       });
 
-      await sendInvitation(invitation.email, invitation.token);
+      //await sendInvitation(invitation.email, invitation.token);
 
       ctx.body = invitation;
       ctx.status = 201;
