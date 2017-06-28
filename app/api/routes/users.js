@@ -21,7 +21,7 @@ function hasAuthorized(){
 }
 export default (router) => {
   router
-    .get('/users', isAdmin(), async ctx => ctx.body = await User.find({}))
+    .get('/users', isBearerAuthenticated(), isAdmin(), async ctx => ctx.body = await User.find({}))
     .post('/users', async ctx => {
       const token = ctx.request.body.token;
       const invitation = await Invitation.findOne({token});

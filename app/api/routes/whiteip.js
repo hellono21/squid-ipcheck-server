@@ -4,6 +4,7 @@
 import validator from 'validator';
 import { connectRedis } from '../../db';
 import configs from '../../configs';
+import { isClientAuthenticated, isBearerAuthenticated, isAdmin } from '../auth';
 
 const db = connectRedis();
 const ttl = 3600*9;
@@ -35,7 +36,10 @@ export default (router) => {
 
       ctx.status = 201
     })
-    .get('/whiteips', async ctx => {
+    .get('/whiteips',
+      isBearerAuthenticated(),
+      isAdmin(),
+      async ctx => {
       const ips = await db.keys('squid*');
 
       ctx.body = ips.map((i) => { return {ip: i.substr(6)}; });
