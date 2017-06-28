@@ -43,7 +43,7 @@ export function isBearerAuthenticated() {
 export function isAdmin() {
   return async (ctx, next) => {
     if (!ctx.state.user.admin) {
-      ctx.throw('Unauthorized user!', 401);
+      ctx.throw('Forbidden', 403);
     }
     await next();
   };

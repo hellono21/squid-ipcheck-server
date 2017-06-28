@@ -5,12 +5,13 @@
 import mongoose from 'mongoose';
 import Invitation from '../../db/models/invitation';
 import { sendInvitation } from '../../utils';
+import { isClientAuthenticated, isBearerAuthenticated, isAdmin } from '../auth';
 
 const isValidId = mongoose.Types.ObjectId.isValid;
 
 export default (router) => {
   router
-    .get('/invitations',  async ctx => ctx.body = await Invitation.find({}))
+    .get('/invitations',  isAdmin(), async ctx => ctx.body = await Invitation.find({}))
     .post('/invitations', async ctx => {
       await Invitation.findOneAndRemove({ email: ctx.request.body.email, });
       const invitation = await Invitation.create({
@@ -31,14 +32,14 @@ export default (router) => {
       }
       if (invitation) ctx.body = invitation;
     })
-    .put('/invitations/:id/send', async ctx => {
+    .put('/invitations/:id/send', isAdmin(), async ctx => {
       const invitation = await Invitation.findById(ctx.params.id);
       if (invitation) {
         await sendInvitation(invitation.email, invitation.token);
         ctx.status = 202;
       }
     })
-    .delete('/invitations/:id', async ctx => {
+    .delete('/invitations/:id', isAdmin(), async ctx => {
       const invitation = await Invitation.findByIdAndRemove(ctx.params.id);
       if (invitation) ctx.status = 204;
     })

@@ -6,7 +6,7 @@
 import mongoose from 'mongoose';
 import User from '../../db/models/user';
 import Invitation from '../../db/models/invitation';
-import { isBearerAuthenticated } from '../auth';
+import { isBearerAuthenticated, isAdmin } from '../auth';
 
 const isValidId = mongoose.Types.ObjectId.isValid;
 
@@ -21,7 +21,7 @@ function hasAuthorized(){
 }
 export default (router) => {
   router
-    .get('/users', async ctx => ctx.body = await User.find({}))
+    .get('/users', isAdmin(), async ctx => ctx.body = await User.find({}))
     .post('/users', async ctx => {
       const token = ctx.request.body.token;
       const invitation = await Invitation.findOne({token});
