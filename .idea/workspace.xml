@@ -15,11 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="invitations.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="invitations.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../app/api/routes/invitations.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="468">
+              <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#39#71#0" expanded="true" />
@@ -31,8 +31,8 @@
       <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../app/api/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-234">
-              <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            <state relative-caret-position="216">
+              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#40#72#0" expanded="true" />
@@ -45,7 +45,31 @@
         <entry file="file://$PROJECT_DIR$/../app/api/auth/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
-              <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="37" />
+              <caret line="49" column="7" lean-forward="false" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="access-token.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../app/db/models/access-token.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-108">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="invitation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../app/db/models/invitation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -56,8 +80,8 @@
       <file leaf-file-name="token.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../app/api/routes/token.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="540">
+              <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#39#75#0" expanded="true" />
@@ -66,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="whiteip.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="whiteip.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../app/api/routes/whiteip.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="41" column="6" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+            <state relative-caret-position="522">
+              <caret line="52" column="26" lean-forward="false" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#38#72#0" expanded="true" />
@@ -100,8 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/app/middleware/index.js" />
-        <option value="$USER_HOME$/package.json" />
         <option value="$USER_HOME$/app/api/routes/users.js" />
         <option value="$USER_HOME$/app/app.js" />
         <option value="$USER_HOME$/app/api/index.js" />
@@ -147,10 +169,12 @@
         <option value="$USER_HOME$/app/index.js" />
         <option value="$USER_HOME$/app/api/routes/whiteip.js" />
         <option value="$PROJECT_DIR$/../../../app/api/routes/invitations.js" />
-        <option value="$PROJECT_DIR$/../app/api/auth/index.js" />
         <option value="$PROJECT_DIR$/../app/api/routes/users.js" />
-        <option value="$PROJECT_DIR$/../app/api/routes/whiteip.js" />
         <option value="$PROJECT_DIR$/../app/api/routes/invitations.js" />
+        <option value="$PROJECT_DIR$/../app/api/auth/index.js" />
+        <option value="$PROJECT_DIR$/../app/db/models/access-token.js" />
+        <option value="$PROJECT_DIR$/../app/db/models/invitation.js" />
+        <option value="$PROJECT_DIR$/../app/api/routes/whiteip.js" />
       </list>
     </option>
   </component>
@@ -244,6 +268,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="." />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -445,12 +491,12 @@
       <workItem from="1498184860202" duration="5937000" />
       <workItem from="1498438309560" duration="1577000" />
       <workItem from="1498552281794" duration="873000" />
-      <workItem from="1498553570310" duration="4585000" />
+      <workItem from="1498553570310" duration="7543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67341000" />
+    <option name="totallyTimeSpent" value="70299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1680" height="991" extended-state="6" />
@@ -487,8 +533,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/app/db/index.js" />
-    <entry file="file://$USER_HOME$/app/configs/index.js" />
     <entry file="file://$USER_HOME$/app/api/routes/whiteip.js" />
     <entry file="file://$USER_HOME$/app/db/models/access-token.js" />
     <entry file="file://$USER_HOME$/app/db/models/white-ip-log.js" />
@@ -533,20 +577,10 @@
     <entry file="file://$USER_HOME$/app/api/routes/invitations.js" />
     <entry file="file://$USER_HOME$/app/configs/index.js" />
     <entry file="file://$PROJECT_DIR$/../../../app/api/routes/invitations.js" />
-    <entry file="file://$PROJECT_DIR$/../app/api/auth/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="38" column="37" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../app/api/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234">
-          <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        <state relative-caret-position="216">
+          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#40#72#0" expanded="true" />
@@ -556,8 +590,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../app/api/routes/token.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="540">
+          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#39#75#0" expanded="true" />
@@ -565,24 +599,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../app/api/routes/whiteip.js">
+    <entry file="file://$PROJECT_DIR$/../app/api/routes/invitations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="41" column="6" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        <state relative-caret-position="468">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#38#72#0" expanded="true" />
+            <element signature="e#39#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../app/api/routes/invitations.js">
+    <entry file="file://$PROJECT_DIR$/../app/api/auth/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="432">
+          <caret line="49" column="7" lean-forward="false" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#39#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/db/models/access-token.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/db/models/invitation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/api/routes/whiteip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="52" column="26" lean-forward="false" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#38#72#0" expanded="true" />
           </folding>
         </state>
       </provider>

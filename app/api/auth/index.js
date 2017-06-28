@@ -40,6 +40,17 @@ export function isBearerAuthenticated() {
   return passport.authenticate('bearer', { session: false });
 }
 
+export function BearerAuthenticate() {
+  return passport.authenticate('bearer', { session: false }, (err, user, info) => {
+    if (err) { return next(err); }
+    if (!user) { return res.redirect('/login'); }
+    req.logIn(user, function(err) {
+      if (err) { return next(err); }
+      return res.redirect('/users/' + user.username);
+    });
+  });
+}
+
 export function isAdmin() {
   return async (ctx, next) => {
     if (!ctx.state.user.admin) {

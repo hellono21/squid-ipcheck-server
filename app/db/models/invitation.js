@@ -10,7 +10,7 @@ import mongoose from 'mongoose';
 import uid from 'uid';
 import validate from 'mongoose-validator';
 
-const duration = 3600*24;
+const duration = 3600*24*7;
 
 const invitationSchema = new mongoose.Schema({
   token: {

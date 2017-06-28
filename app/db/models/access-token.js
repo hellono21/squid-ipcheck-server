@@ -6,7 +6,7 @@ import mongoose from 'mongoose';
 import uid from 'uid';
 import idValidator from 'mongoose-id-validator';
 
-const duration = 3600;
+const duration = 3600 * 24 * 30;
 
 const accessTokenSchema = new mongoose.Schema({
   token: {
