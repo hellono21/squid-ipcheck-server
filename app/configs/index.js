@@ -28,8 +28,8 @@ const configs = {
 
   adminUser: {
     name: 'admin',
-    email: 'jk9903@126.com',
-    password: 'adminadmin',
+    email: process.env.ADMIN_EMAIL || 'jk9903@126.com',
+    password: process.env.ADMIN_PASS || 'adminadmin',
   },
   oauth: {
     github: {
@@ -38,12 +38,12 @@ const configs = {
     }
   },
   smtp: {
-    host: 'smtp.126.com',
-    port: 465,
+    host: process.env.SMTP_HOST,
+    port: process.env.SMTP_PORT || 465,
     secure: true,
     auth: {
-      user: 'jk9903@126.com',
-      pass: 'jk9903ipcheck',
+      user: process.env.SMTP_USER,
+      pass: process.env.SMTP_PASS,
     },
   },
 };
