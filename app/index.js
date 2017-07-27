@@ -11,7 +11,8 @@ const { mongo } = configs;
 
 (async () => {
   try {
-    const uri = `mongodb://${mongo.host}:${mongo.port}/squid-ipcheck`
+    const uri = `mongodb://${mongo.host}:${mongo.port}/squid-ipcheck`;
+    console.log(`Connecting to ${uri}`);
     const info = await connectDatabase(uri);
     console.log(`Connected to ${info.host}:${info.port}/${info.name}`);
   } catch (error) {
